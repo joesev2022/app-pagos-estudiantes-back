@@ -58,7 +58,7 @@ public class PagoController {
     return pagoRepository.findById(id).get();
   }
 
-  @GetMapping("/pagos/estudiante/{codigoEstudiante}")
+  @GetMapping("estudiante/{codigoEstudiante}/pagos")
   public List<Pago> getPagosByCodigoEstudiante(@PathVariable String codigoEstudiante) {
     return pagoRepository.findByEstudianteCodigo(codigoEstudiante);
   }

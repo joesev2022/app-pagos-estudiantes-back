@@ -2,5 +2,5 @@ package com.app.estudiantespagos.enums;
 
 public enum PagoStatus {
 
-  CREADO, VALIDADO, RECHAZADO
+  PENDIENTE, CREADO, VALIDADO, RECHAZADO
 }
